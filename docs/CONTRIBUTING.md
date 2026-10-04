@@ -88,24 +88,17 @@ You can add your card as an HTML file in contributors directory. Create a file w
 </style>
 
 ```
-## Add your card to contributors list
+## Preview your card
 
-Add the name of the file you created to `scripts/contributors.js` file.
+The contributor list is generated from the HTML files in `contributors/`; you do not need to edit `scripts/contributors.js`. Both GitHub Pages workflows generate this list automatically.
 
-`scripts/contributors.js`
-```js
-const contributorFiles = [
-  "<your-github-id>.html", // add your file name here
-  "roshanjossey.html",
-  "gokultp.html",
-];
+To preview your card locally, run the generator from the repository root:
+
+```bash
+bash scripts/generate-cards.sh
 ```
 
-## View your changes in a web browser
-
-You can see your changes by opening `index.html` in a web browser. You should be able to see the new card you added in the previous steps.
-
-You can continue making changes to your card and refresh the web browser tab to see those changes.
+Then open `index.html` in a web browser. The generated `scripts/contributors.js` file does not need to be included in your pull request.
 
 ## Commit your changes
 
