@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o pipefail
 
 # Path to the cards directory and output file
 CARDS_DIR="contributors"
@@ -13,11 +14,11 @@ fi
 # Start generating the JavaScript array
 echo "const contributorFiles = [" > "$OUTPUT_FILE"
 
-# List all HTML files in the cards directory
-find "$CARDS_DIR" -type f -name "*.html" | sed "s|^$CARDS_DIR/|  \"|; s|$|\",|" >> "$OUTPUT_FILE"
+# List all HTML files in a stable order
+find "$CARDS_DIR" -type f -name "*.html" | LC_ALL=C sort | sed "s|^$CARDS_DIR/|  \"|; s|$|\",|" >> "$OUTPUT_FILE"
 
 # Close the JavaScript array
 echo "];" >> "$OUTPUT_FILE"
 
-echo "$OUTPUT_FILE generated successfully with $(ls -1 $CARDS_DIR/*.html | wc -l | xargs) files."
-
+card_count=$(awk '/^  "/ { count++ } END { print count + 0 }' "$OUTPUT_FILE")
+echo "$OUTPUT_FILE generated successfully with $card_count files."
