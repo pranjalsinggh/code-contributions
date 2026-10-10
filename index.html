@@ -17,6 +17,11 @@
 
     <main id="contributor-cards" class="container">
         <h2>Contributors</h2>
+        <div class="contributor-search">
+            <label for="contributor-search-input">Search contributors</label>
+            <input id="contributor-search-input" type="search" placeholder="Search by GitHub username" aria-describedby="contributor-search-status">
+            <p id="contributor-search-status" role="status" aria-live="polite"></p>
+        </div>
     </main>
 
     <script async src="scripts/load-cards.js"> </script>

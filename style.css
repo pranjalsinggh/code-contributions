@@ -5,6 +5,19 @@
     width: fill-available;
 }
 
+.contributor-search {
+    max-width: 32rem;
+    margin-bottom: 2rem;
+}
+
+.contributor-search label {
+    display: block;
+}
+
+.contributor-search p {
+    margin-bottom: 0;
+}
+
 header {
     background-color: #070707;
     text-align: center;
