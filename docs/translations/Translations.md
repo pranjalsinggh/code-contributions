@@ -12,3 +12,7 @@
 | <img alt="Spain" title="Spain" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/es.svg" width="22"> | [Spain](es/README.es.md)                    |
 | <img alt="العربية" title="العربية" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/sa.svg" width="22"> | [العربية](ar/README.ar.md)                  |
 | <img title="한국어" alt="한국어" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/kr.svg" width="22"> | [한국어](kr/README.kr.md)  |
+| <img alt="Farsi" title="Farsi" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/ir.svg" width="22"> | [Farsi](fa/README.fa.md)                     |
+| <img alt="Polish" title="Polish" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/pl.svg" width="22"> | [Polish](pl/README.pl.md)                    |
+| <img alt="Russian" title="Russian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/ru.svg" width="22"> | [Russian](ru/README.ru.md)                   |
+| <img alt="Vietnamese" title="Vietnamese" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/vn.svg" width="22"> | [Vietnamese](vn/README.vn.md)                |
