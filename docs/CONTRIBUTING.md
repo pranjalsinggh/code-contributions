@@ -62,10 +62,12 @@ You can add your card as an HTML file in contributors directory. Create a file w
     <img
       class="icon"
       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+      alt="Bash icon"
     />
     <img
       class="icon"
       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+      alt="Linux icon"
     />
   </section>
 </article>
