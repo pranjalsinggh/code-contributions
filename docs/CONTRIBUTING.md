@@ -6,7 +6,7 @@
 
 ## Clone your fork of this repository.
 
-In your fork of this repository, click on code button. Select SSH tab and then click on `copy to clipboard` button.
+In your fork of this repository, click on the **Code** button. If you already have an SSH key set up with GitHub, select the **SSH** tab and copy the URL. Otherwise, select **HTTPS** (the straightforward option for beginners) and copy the URL.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 Open a terminal and run `git clone` command
