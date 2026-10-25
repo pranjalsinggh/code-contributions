@@ -9,6 +9,6 @@
 | <img alt="中文" title="中文" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22"> | [中文](cn/README.cn.md)                     |
 | <img alt="Türkiye" title="Türkiye" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tr.svg" width="22"> | [Türkiye](tr/README.tr.md)  |
 | <img alt="Italiano" title="Italiano" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/it.svg" width="22"> | [Italiano](it/README.it.md)  |
-| <img alt="Spain" title="Spain" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/es.svg" width="22"> | [Spain](es/README.es.md)                    |
+| <img alt="Español" title="Español" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/es.svg" width="22"> | [Español](es/README.es.md)                    |
 | <img alt="العربية" title="العربية" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/sa.svg" width="22"> | [العربية](ar/README.ar.md)                  |
 | <img title="한국어" alt="한국어" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/kr.svg" width="22"> | [한국어](kr/README.kr.md)  |
